@@ -1,0 +1,299 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html{
+				font-size: 100px;
+			}
+			.box{
+				height: 100%;
+				background-color:#F5F5F5;
+			}
+			.header{
+				height:0.4rem;
+				background-color: #FF8A00;
+				font-size: 0;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.header>span:nth-child(1){
+				flex: 2;
+				display: block;
+				width: 1.15rem;
+				height: 0.3rem;
+				background: url(../img/logo.jpg) no-repeat;
+				background-size: 1.15rem 0.3rem;
+				margin-left: 0.3rem;
+			}
+			.header>span:nth-child(2){
+				flex: 1;
+				display: flex;
+				justify-content:space-evenly;
+				align-items: center;
+			}
+			.my{
+				display:block;
+				width: 0.2rem;
+				height: 0.3rem;
+				background: url(../img/my.jpg) no-repeat;
+				background-size: 0.2rem 0.3rem;
+			}
+			.xiazai{
+				display: block;
+				width: 0.2rem;
+				height: 0.3rem;
+				background: url(../img/xiazai.jpg) no-repeat;
+				background-size: 0.2rem 0.3rem;
+			}
+			.nav{
+				height: 2.15rem;
+				background: url(../img/banner.png) no-repeat;
+				background-size: 100% 2.15rem; 
+				position: relative;
+			}
+			.nav-search{
+				position: absolute;
+				bottom: 0;
+				width: 2.98rem;
+				height: 0.39rem;
+				border-top: 2px solid gray;
+				border-left: 2px solid gray;
+				left: 50%;
+				transform: translate(-50%);
+				border-radius: 0.05rem;
+				background-color:white;
+				overflow: hidden;
+			}
+			.nav-search>span{
+				display: block;
+				width: 0.2rem;
+				height: 0.2rem;
+				background: url(../img/seach.jpg) no-repeat center center;
+				background-size: 0.18rem 0.19rem;
+				float: left;
+				margin:0.1rem 0.05rem ;
+				vertical-align: middle;
+			}
+			.nav-search>div{
+				float: left;
+				font-size: 0.13rem;
+				color: gray;
+				margin:0.1rem 0 ;
+			}
+			.buyhouses{
+				height: 1.28rem;
+				position: relative;
+			}
+			.buyhouses>ul{
+				position: absolute;
+				width: 100%;
+				height: 1.1rem;
+				background-color: #FF8A00;
+				top: 0.1rem;
+				list-style: none;
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.buyhouses>ul>li{
+				font-size: 0.1rem;
+				color: white;
+				text-align: center;
+			}
+			.buyhouses>ul>li:nth-child(1) span{
+				display: block;
+				width: 0.59rem;
+				height: 0.59rem;
+				background: url(../img/index_03.png) no-repeat;
+				background-size: 0.59rem 0.59rem;
+			}
+			.buyhouses>ul>li:nth-child(2) span{
+				display: block;
+				width: 0.59rem;
+				height: 0.59rem;
+				background: url(../img/index_05.png) no-repeat;
+				background-size: 0.59rem 0.59rem;
+			}
+			.buyhouses>ul>li:nth-child(3) span{
+				display: block;
+				width: 0.59rem;
+				height: 0.59rem;
+				background: url(../img/index_07.png) no-repeat;
+				background-size: 0.59rem 0.59rem;
+			}
+			.buyhouses>ul>li:nth-child(4) span{
+				display: block;
+				width: 0.59rem;
+				height: 0.59rem;
+				background: url(../img/index_09.png) no-repeat;
+				background-size: 0.59rem 0.59rem;
+			}
+			.buyhouses>ul>li>p{
+				padding: 0.05rem 0;
+			}
+			.ban{
+				height: 2.4rem;
+				background: url(../img/banner2.png) no-repeat;
+				background-size: 100% 2.4rem;
+			}
+			.hot{
+				margin-top: 0.15rem;
+				height: 0.6rem;
+				background-color: #FF8A00;
+				font-size: 0;
+			}
+			.hot>p:nth-child(1){
+				font-size:0.2rem;
+				color: white;
+				padding:0.1rem 0rem 0.05rem 0.15rem;
+			}
+			.hot>p:nth-child(2){
+				font-size:0.11rem;
+				color: white;
+				padding: 0rem 0rem 0.5rem 0.15rem;
+			}
+			.lookhouse{
+				height: 4.38rem;
+				background-color: white;
+			}
+			.lookhouse>li>div{
+				height: 1.45rem;
+				overflow: hidden;
+			}
+			.lookhouse>li>div>img{
+				width: 0.8rem;
+				height: 0.8rem;
+				float: left;
+				margin-top: 0.24rem;
+				margin-left: 0.1rem;
+			}
+			.names{
+				float: left;
+				width: 1.99rem;
+				height: 100%;
+				padding: 0.24rem 0.2rem 0rem 0.10rem;
+			}
+			.names>div:nth-child(1){
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				font-size: 0.19rem;
+				font-weight: bold;
+			}
+			.names>p:nth-child(1){
+				overflow: hidden;
+			}
+			.mm{
+				font-size: 0.13rem;
+				float: left;
+				margin: 0.12rem 0;
+			}
+			.money{
+				float: right;
+				font-size: 0.13rem;
+				font-weight: bold;
+				color: #FF8A00;
+				margin: 0.12rem 0;
+			}
+			.names>p:nth-child(2){
+				overflow: hidden;
+			}
+			.where{
+				font-size: 0.13rem;
+				color: #B9B9B9;
+				float: left;
+			}
+			.prices{
+				float: right;
+				font-size: 0.13rem;
+				color: #B9B9B9;
+			}
+			/*.names>p:nth-child(3) span{
+				font-size:0.13rem;
+				background:#F4F7F9;
+				margin: 0.12rem 0;
+			}*/
+			.lookhouse>hr{
+				width: 85%;
+				border: 1px solid red;
+				margin: 0 auto;
+			}
+			.hothouses{
+				width: 100%;
+				height:1.95rem ;
+				background-color: white;
+				margin-top: 0.05rem;
+			}
+			.ullistone{
+				list-style: none;
+				width: 100%;
+				height: 0.55rem;
+				text-align: center;
+				line-height: 0.55rem;
+				overflow: hidden;
+			}
+			.ullistone>li{
+				float: left;
+				width: 50%;
+				height: 98%;
+				font-size: 0.19rem;
+			}
+			.ullistone>li:nth-child(1){
+				color: #FF8A00;
+				border-bottom: 1px solid #FF8A00;
+			}
+			.hothouses>hr{
+				border: 1px solid #FF8A00;
+			}
+			.beijing{
+				list-style: none;
+				float: left;
+				width: 50%;
+				padding: 0.10rem 0;
+			}
+			.beijing>li{
+				margin-left: 0.3rem;
+				font-size: 0.13rem;
+			}
+			.phone{
+				height: 1.58rem;
+				background-color:#2F3130;
+			}
+			.phone{
+			    height: 1.55rem;
+			    background-color: #2F3130;
+			}
+			.phone>h1{
+			    font-size: 0.12rem;
+			    box-sizing: border-box;
+			    padding-bottom: 0.13rem;
+			    border-bottom: 1px solid #AEAFAF;
+			}
+			.phone>.nek{
+			    display: flex;
+			    height: 0.58rem;
+			}
+			.phone>.nek>div{
+			    width: 50%;
+			}
+			.phone>.nek>div:first-child{
+			  /*  background: url(../img/apple.png) no-repeat;*/
+			    background-size: 0.13rem;
+			}
+			.phone>.nek>div>p{
+			    text-align: center;
+			    font-size: 0.12rem;
+			}
+			.phone>.nek>div>p:first-child{
+			    margin-top: 0.13rem;
+			    font-size: 0.12rem;
+			}
+			.phone>.nek>div:last-child{
+			    /*background:url(../img/android.png) no-repeat;*/
+			    font-size: 0.13rem;
+			}
+			.phone>p{
+			    text-align: center;
+			   font-size: 0.12rem;
+			}
